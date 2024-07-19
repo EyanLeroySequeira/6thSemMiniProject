@@ -22,7 +22,7 @@ const PatientDashBoard = () => {
             <nav>
                 <img src={applogo} alt="applogo" />
                 <div className="navbar">
-                    <NavLink to='/Home' className="nav-link">Home</NavLink>
+                    <NavLink to='/PatientDashBoard' className="nav-link">PatientDashboard</NavLink>
                     <NavLink to='/Predictor' className="nav-link">Predictor</NavLink>
                     <NavLink to='/Appointments' className="nav-link">Appointments</NavLink>
                     <button onClick={handleLogout} className="nav-link logout-button">Logout</button>

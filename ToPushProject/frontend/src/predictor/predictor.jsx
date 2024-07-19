@@ -58,7 +58,7 @@ const Predictor = () => {
             <nav>
                 <img src={applogo} alt="applogo" />
                 <div className="navbar">
-                    <NavLink to='/Home' className="nav-link">Home</NavLink>
+                    <NavLink to='/PatientDashBoard' className="nav-link">PatientDashBoard</NavLink>
                     <NavLink to='/Predictor' className="nav-link">Predictor</NavLink>
                 </div>
             </nav>
