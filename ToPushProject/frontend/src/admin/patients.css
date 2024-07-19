@@ -1,0 +1,47 @@
+/* src/patients/patients.css */
+.patients-container {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+table {
+    width: 80%; /* Reduced the width to 80% */
+    border-collapse: collapse;
+    background-color: #e0f7fa; /* Light blue background color */
+    margin-top: 20px; /* Added margin to separate the table from the heading */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Added subtle shadow */
+    border-radius: 8px; /* Added rounded corners */
+    overflow: hidden; /* To keep the border radius */
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px; /* Increased padding for better spacing */
+    text-align: left; /* Ensure left alignment for better readability */
+}
+
+th {
+    background-color: #b2ebf2; /* Slightly darker blue for the header */
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+tr:nth-child(even) {
+    background-color: #f1f8e9; /* Added a subtle alternate row color */
+}
+
+.delete-button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.delete-button:hover {
+    background-color: #ff1a1a;
+}
