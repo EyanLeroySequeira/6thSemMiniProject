@@ -12,7 +12,7 @@ const Home = () => {
             <nav>
                 <img src={applogo} alt="applogo" />
                 <div className="navbar">
-                    <NavLink to='/Home' className="nav-link">Home</NavLink>
+                    <NavLink to='/Home' className="nav-link">house</NavLink>
                     <NavLink to='/Admin' className="nav-link">Admin</NavLink>
                     <NavLink to='/Patient' className="nav-link">Patient</NavLink>
                    
